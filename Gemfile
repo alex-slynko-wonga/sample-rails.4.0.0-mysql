@@ -1,16 +1,14 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0.rc1'
-
-ruby "2.1.1"
+gem 'rails', '~> 4.2'
 
 gem 'unicorn'
 
 gem 'actionpack-page_caching'
 
 # Use mysql2 as the database for Active Record
-gem 'mysql2', :git => "git://github.com/brianmario/mysql2"
+gem 'mysql2'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
